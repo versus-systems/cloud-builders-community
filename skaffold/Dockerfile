@@ -1,4 +1,4 @@
-FROM gcr.io/cloud-builders/kubectl
+FROM gcr.io/versus-environments/helm
 
 RUN mkdir -p /builder/bin && \
   apt-get update && \
